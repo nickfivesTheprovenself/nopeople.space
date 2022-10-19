@@ -44,12 +44,7 @@ headerHorizontalLine {
     width: 20%;
     outline-color: black;
     outline-width: 5px
-    outline-style: ridge;
-    background-image: 
-    background-size: cover;
-    background-position-x: center;
-    padding-left: px;
-    padding-right: px;
+
 }
 .rightcolumnheader {
     
