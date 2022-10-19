@@ -1,0 +1,113 @@
+
+.full-body {
+    background-image: url("4website buttons/background8.jpg");
+    background-size: cover;
+    
+}
+
+.main-header {
+    background-image: url("4website buttons/background7.jpg");
+    background-size: fill;
+   
+  
+    padding-bottom: 0px
+    
+}
+headerHorizontalLine {
+    color: black
+}
+.chatbullshitatthetop {
+    padding-left: 3px;
+}
+.callus {
+    padding-left: 5px;
+}
+.annboard {
+    
+}
+.table {
+    
+    outline-color: black;
+    outline-width: 5px;
+}
+.leftcolumn {
+    
+    padding-top: -100px;
+
+}
+.middlecolumn{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.rightcolumn {
+    
+    outline-color: black;
+    outline-width: 5px
+    outline-style: ridge;
+    background-image: 
+    background-size: cover;
+    background-position-x: center;
+    padding-left: px;
+    padding-right: px;
+}
+.rightcolumnheader {
+    
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    transition: 200ms ease-in-out;
+    border: 1px solid black;
+    border: 5px solid greenyellow;
+    z-index: 10;
+    background-color: lightcoral;
+    width: 500px; 
+    max-width: 80%;
+    
+}
+.modal.active {
+    transform: translate(-50%, -50%) scale(1);
+}
+
+
+.modal-header {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.modal-header .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+.modal-header .close-button {
+    cursor: pointer;
+
+}
+.modal-body {
+    padding: 5px;
+}
+#overlay {
+    position: fixed;
+    opacity: 0;
+    transition: 200ms ease-in-out; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+}
+
+#overlay.active {
+    opacity: 1;
+    pointer-events: all;
+}
+.allthesocials {
+    
+}
+   
