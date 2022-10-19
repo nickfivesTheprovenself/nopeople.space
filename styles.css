@@ -26,22 +26,22 @@ headerHorizontalLine {
     
 }
 .table {
-    
+    width: 100%;
     outline-color: black;
     outline-width: 5px;
 }
 .leftcolumn {
-    
+    width: 15%;
     padding-top: -100px;
 
 }
 .middlecolumn{
-    
+    width: 65%;
     padding-left: 50px;
     padding-right: 50px;
 }
 .rightcolumn {
-    
+    width: 20%;
     outline-color: black;
     outline-width: 5px
     outline-style: ridge;
