@@ -1,3 +1,5 @@
+
+
 .full-body {
     
     background-image: url("4website buttons/background8.jpg");
@@ -38,12 +40,13 @@ headerHorizontalLine {
 
 .table {
     width: 100%;
-    outline-color: black;
-    outline-width: 5px;
+   
+   
 
 }
 .tr {
     width: 100%
+    
 }
 @media all and (max-width: 500px) {
     .tr {
@@ -55,27 +58,63 @@ headerHorizontalLine {
 
 
 .leftcolumn {
-    width: 15%;
-    padding-top: -100px;
+    width: 70%;
+    padding-top: -50px;
+    padding-left: 10px;
+    font-weight: normal;
+    border: 1px;
+
 
 }
-.middlecolumn{
-    width: 65%;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+
 .rightcolumn {
-    max-width: 15%;
-    width: 15%;
-    outline-color: black;
-    outline-width: 5px
+   padding-top: -100px;
+    padding-right: 20px;
+    padding-left: 10px;
+    max-width: 10%;
+    width: 10%;
+    border: 1px;
     
+    
+}
+.rightcolumndiv {
+    background-image: url("4website buttons/lok2.png");
+    background-blend-mode: luminosity;
+    background-color: rgba(0, 0, 0, .5);
+    background-size: fill;
+    background-position: center;
+    background-clip: border-box;
+}
+.table2 {
+    width: 100%;
+   
+   
+
 }
 /*responsive*/
-
-.rightcolumnheader {
-    
+.cboxcolumn {
+    width: 90%;
+    padding-top: -50px;
+    left: auto;
 }
+
+
+.monthlyrecap {
+    
+    width: 70%;
+    padding-left: 5em;
+   
+}
+video {
+    width: 100%;
+}
+.cbox {
+    width: 40%;
+    padding-left: 5em;
+}
+
+    
+
 /* top modal1 thing is css for the button */
 .modal1 {
     width: 20%;
@@ -149,4 +188,5 @@ headerHorizontalLine {
     
 }
    
+
    
