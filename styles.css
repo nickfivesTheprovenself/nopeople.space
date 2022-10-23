@@ -1,12 +1,15 @@
-
 .full-body {
+    
     background-image: url("4website buttons/background8.jpg");
     background-position: center;
     background-size: cover;
+    font-size: clamp(7px, 1vw, 150px);
     
 }
 
 .main-header {
+    font-size: clamp(7px, 1vw, 150px);
+    width: 100%;
     background-image: url("4website buttons/background7.jpg");
     background-size: fill;
    
@@ -19,19 +22,38 @@ headerHorizontalLine {
 }
 .chatbullshitatthetop {
     padding-left: 3px;
-    width: 50%;
+    width: 50%
 }
 .callus {
     padding-left: 5px;
 }
+.container {
+    display: grid;
+    grid-gap: 1em;
+    width: fill;
+}
 .annboard {
     
 }
+
 .table {
     width: 100%;
     outline-color: black;
     outline-width: 5px;
+
 }
+.tr {
+    width: 100%
+}
+@media all and (max-width: 500px) {
+    .tr {
+        display: block;
+    }
+}
+    
+
+
+
 .leftcolumn {
     width: 15%;
     padding-top: -100px;
@@ -43,13 +65,28 @@ headerHorizontalLine {
     padding-right: 50px;
 }
 .rightcolumn {
-    width: 20%;
+    max-width: 15%;
+    width: 15%;
     outline-color: black;
     outline-width: 5px
-
+    
 }
+/*responsive*/
+
 .rightcolumnheader {
     
+}
+/* top modal1 thing is css for the button */
+.modal1 {
+    width: 20%;
+    height: auto;
+    
+    
+    
+
+}
+.modaltext {
+    font-size: clamp(2 px, 1vw, 10px); 
 }
 .modal {
     position: fixed;
@@ -58,11 +95,13 @@ headerHorizontalLine {
     transform: translate(-50%, -50%) scale(0);
     transition: 200ms ease-in-out;
     border: 1px solid black;
-    border: 5px solid greenyellow;
     z-index: 10;
-    background-color: lightcoral;
+    background-image: url("4website buttons/background8.jpg");
+    background-size: 100%;
+    background-position-y: 2000em;
     width: 500px; 
     max-width: 80%;
+    font-size: clamp(10px, 1vw, 150px);
     
 }
 .modal.active {
@@ -75,11 +114,13 @@ headerHorizontalLine {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: clamp(10px, 1vw, 150px);
 
 }
 .modal-header .title {
     font-size: 1.25rem;
     font-weight: bold;
+    font-size: clamp(10px, 1vw, 150px);
 }
 .modal-header .close-button {
     cursor: pointer;
@@ -107,4 +148,5 @@ headerHorizontalLine {
 .allthesocials {
     
 }
+   
    
