@@ -1,19 +1,49 @@
+@font-face {
+    font-family: 'ExensaGrotesk';
+    src: url("4website buttons/Consolas.ttf");
+}
 
+h1 {
+    font-family: 'Consolas';
+}
+h2 {
+    font-family: 'Consolas';
+    font-size: xx-large;
+}
+h3 {
+    font-family: 'Consolas';
+    font-size: x-large;
+}
+h4 {
+    font-family: 'Consolas';
+}
+h5 {
+    font-family: 'Consolas';
+}
+
+
+    
 
 .full-body {
     
-    background-image: url("4website buttons/background8.jpg");
+    background-image: url("4website buttons/background11.jpg");
     background-position: center;
     background-size: cover;
     font-size: clamp(7px, 1vw, 150px);
+    font-family: 'Consolas';
     
 }
-
+.logo {
+    padding-top:;
+    padding-left: 44%;
+}
 .main-header {
+    padding-top: 3px;
     font-size: clamp(7px, 1vw, 150px);
     width: 100%;
-    background-image: url("4website buttons/background7.jpg");
-    background-size: fill;
+    background-image: url("4website buttons/background11.jpg");
+    background-size: cover;
+    background-position: center;
    
   
     padding-bottom: 0px
@@ -78,31 +108,24 @@ headerHorizontalLine {
     
 }
 .rightcolumndiv {
-    background-image: url("4website buttons/lok2.png");
+    background-image: url("4website buttons/background10.png");
     background-blend-mode: luminosity;
     background-color: rgba(0, 0, 0, .5);
     background-size: fill;
     background-position: center;
     background-clip: border-box;
 }
-.table2 {
-    width: 100%;
-   
-   
 
-}
-/*responsive*/
-.cboxcolumn {
-    width: 90%;
-    padding-top: -50px;
-    left: auto;
-}
+
 
 
 .monthlyrecap {
+    outline-style: double;
+    outline-width: thick;
+    padding-top: -5em;
+    width: 50%;
+    height: 500px;
     
-    width: 70%;
-    padding-left: 5em;
    
 }
 video {
@@ -188,5 +211,6 @@ video {
     
 }
    
+
 
    
