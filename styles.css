@@ -13,7 +13,7 @@ h2 {
 }
 h3 {
     font-family: 'Consolas';
-    font-size: x-large;
+    font-size: large;
 }
 h4 {
     font-family: 'Consolas';
@@ -37,9 +37,15 @@ h6 {
     font-family: 'Consolas';
     
 }
+.mainlogo {
+    width: 12%;
+    opacity: .7;
+    
+}
 .logo {
-    padding-top:;
+   
     padding-left: 44%;
+    opacity: .65;
 }
 .main-header {
     padding-top: 3px;
@@ -48,11 +54,19 @@ h6 {
     width: 100%;
     background-image: url("4website buttons/background11.jpg");
     background-size: cover;
-    background-position: top;
+    background-position: unset;
    
   
     padding-bottom: 0px
     
+}
+.date {
+    padding-left: 5em;
+    width: 20%;
+}
+.datetime {
+    font-size: clamp(7px, 1vw, 150px);
+    width: 20%;
 }
 .socials {
     width: 100%;
@@ -66,7 +80,10 @@ headerHorizontalLine {
     
 }
 .saywhatizupp {
-padding-left: 80%
+padding-right: 70%;
+font-size: clamp(7px, 1vw, 150px);
+    
+
 
 }
 .chatbullshitatthetop {
@@ -100,6 +117,11 @@ padding-left: 80%
     font-size: clamp(22px, 4vw, 1800px);
 }
 
+.scyoutube {
+    width: 100%;
+    font-size: clamp(17px, 3vw, 1800px);
+}
+
 .videocolumn {
     width: 50%;
    
@@ -131,7 +153,7 @@ padding-left: 80%
    
     font-weight: normal;
     border: 1px;
-    padding-bottom: 130em;
+    padding-bottom: 138em;
 }
 
 
@@ -250,20 +272,17 @@ video {
     pointer-events: all;
 }
 
-.gallery {
- 
-    width: 130%
-}
+
 
 .image-grid {
     
-    width: 100%;
+    width: 120%;
     
     --num-cols: 3;
     --row-height: 200px;
 
     box-sizing: border-box;
-    padding: var(--gap);
+    
 
     display: grid;
     grid-template-columns: repeat(var(--num-cols), 1fr);
@@ -285,9 +304,3 @@ video {
         --row-height: 50px;
     }
 }
-   
-
-   
-
-
-   
